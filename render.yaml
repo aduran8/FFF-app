@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: football-fundamentals
-    env: python
-    plan: free
-    buildCommand: ""
-    startCommand: gunicorn app:app
-    autoDeploy: true
