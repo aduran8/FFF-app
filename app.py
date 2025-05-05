@@ -25,8 +25,47 @@ lessons = [
     },
     {
         "title": "The Different Positions of Football",
-        "content": "Football players are grouped into either offense, defense, and/or special teams. Normally, a player plays either offense or defense, it is uncommon for a specific player to play both sides of the ball.  There are a total of 11 players for all three sections of the game; any more than that results in a penalty to the team with 11 players. The position on offense include quarterback, running back, wide receiver, offensive linemen, and defensive backs.",
-        "video": "https://www.youtube.com/embed/kT5ZRsCd3yE"
+        "content": "Football players are grouped into either offense, defense, and/or special teams. Normally, a player plays either offense or defense, it is uncommon for a specific player to play both sides of the ball.  There are a total of 11 players for all three sections of the game; any more than that results in a penalty to the team with more than 11 players on their side of the field."
+
+    },
+    {
+        "title": "Offense - The Different Positions",
+        "content": "There are a total of 11 players on the offense side of the ball. The way one can tell that the offense is on the field is because they are the side that have posession of the football, and are trying to score. "
+        "The list of players go as follows: "
+        "   -Quarterback: The 'captain' on the offense, in charge of taking the snap from the center and throwing the football to either wide receivers, tights ends, or running backs."
+        "   -Fullback: This player lines up behind the quarterback. Sometimes this player will be given the ball from the quarterback on a run play, but their role is to typically serve as a blocker to the quarterback and/or the halfback."
+        "   -Halfback: This player lines up behind the fullback and is responsible for running the ball when the quarterback hands them the ball. There are occasions where the running back will go past the line of scrimmage and try to catch a pass from the quarterback.There are also scenarios where the running back will protect the quarterback from players on defense that try to get to the quarterback"
+        "   -Wide Receiver: This player is usually the fastest player on the offensive side of the ball. There are always two of these players (sometimes three) line up on different ends of their side of the ball. These players line up furthest from the ball to run routes to try and catch passes from the quarterback; whether they are short passes or long passes, their objective is to run and catch the ball."
+        "   -Tight End: This player is similar to the wide receiver, but the only difference about these players is that they are taller and stronger than the receivers. They typically don't have to be fast, because sometimes their objective on the field is to serve as a blocker to either the quarterback or a running back running down the field."
+        "   -Left Tackle: This player lines up on the left side of the football. They protect what is known as the 'blind-side' of a quarterback. One of the five positions on the line of scrimmage that is responsible for protecting the quarterback. All lineman tend to be big, tall, and muscular. It is preferred that they be somewhat fast in order to prevent fast defenders from reaching the quarterback."
+        "   -Left Guard: Lineman 2 of 5. This player lines up between the left tackle and the center. They are typically smaller than the two offensive tackles on the field, but they also serve to protect the quarterback."
+        "   -Center: Lineman 3 of 5. Arguably, the most important lineman. This player is responsible of 'snapping' the ball to the quarterback. This player is usually 'the brain' on the line because they communicate to the quarterback what they are seeing on the defensive line."
+        "   -Right Guard: This player serves the same purpose as the left guard on the offensive line, the only difference is that they are lined up on the right side of the football."
+        "   -Right Tackle: Lineman 5 of 5. Same rules apply to the right tackle and the left tackle, but some see their responsibility to be a little less, because the quarterback can usually see what is happening on the right side of the field when trying to throw the football."
+    },
+     {
+        "title": "Defense - The Different Positions... On the other side of the Ball",
+        "content": "There are a total of 11 players on the defensive side of the ball. They are on the opposite side of the football. Their goal is to stop the offense from advancing the ball down the field and scoring points. If done well enough, the defense can score points as well, if they manage to take the ball away from the offense. "
+        "The list of players go as follows: "
+        "   -Cornerback: The role of this player is to defend the wide receivers. They also have to be fast, in order to be able to keep up with the receivers. Their objective is to try and prevent receivers from catching the ball. If played well enough, they can intercept a throw from the quarterback and allow the offense from his team to try and score. There are always at least 2 cornerbacks lined up on the field. "
+        "   -Safety: The safety positon is somewhat similar to what the cornerback does, the only difference is that they are not 'assigned' to guard a specific position. Their role is more for them to guard wherever the ball may be headed. Typically, a safety will take on the role of guarding the tight end position player. There are always 2 safeties on the field as well. Safeties do not have to be as fast as the cornerbacks, but are usually fast. Both cornerbacks and safeties are referred to as 'defensive backs'. "
+        "   -Middle Linebacker: There is only one middle linebacker on the field, and they are typically the 'unofficial captain' on the field. The player in this position is usually the one who is communicating to the other players on defense to point out anything they are seeing from the offense on the field. Middle linebackers are usually strong and fast; they are assigned to protect the short passes from the offense. "
+        "   -Outside Linebacker: The role of this player is to guard the areas in which the tight end can catch passes. There are always 2 outside linebackers, and they sometimes come down to try and get to the quarterback. Outside linebackers are usually not that big, not that fast, but they do tend to be strong."
+        "   -Defensive End: There are two defensive ends on the defense. Each one lines up against the left tackle and the right tackle. The role of this player is to try and get to the quarterback, or 'stuff' the line of scrimmage to prevent runningbacks from gaining yards. Defensive ends are usually lean, but muscular; they are usually very fast, but not as fast as defensive backs. "
+        "   -Defensive Tackle: The same as defensive ends, there are also 2 DT's on the defensive side of the field. The players filling this role are typically tall, big, and muscular players. Their job is to prevent the runningback from gaining yardage, and to disrupt the offensive line. On some occasions, the defensive tackles get to the quarterback, but ultimately, it is not really their job. "
+    },
+         {
+        "title": "Special Teams - The Not So Man ",
+        "content": "There are a total of 11 players from each team on the field. When it comes to special teams, there are a mix of players who play on different sides of the ball. There are only a few changes from offense and defense when it comes to special teams."
+        "The list of players go as follows: "
+        "   -Long Snapper: "
+        "   -Punter (only for Punts): "
+        "   -Holder (for Field Goal attempts): "
+        "   -Kicker: "
+        "   -Return Specialist: "
+        "   -Gunner: The role of this player is to try and get to the return speciist as fast as they can in order to prevent the specialist from catching the ball and returning it. Once the ball is snapped, they just have to run as fast as they can. So, these players have to be very fast and smart about how they try to tackle the specialist when running at full speed."
+        "   -Jammer: A player in this positon has the role of trying to prevent the guuner from getting to the player receiving the ball from a punt or a kick return. If they do their job well, then it allows the return specialist to have a chance of scoring upon catching the ball. These players have to be just as fast as the "
+        "   -Blockers: This is just the category name given to the offensive lineman and the running backs who are preventing the defense from getting to the football."
     },
     {
         "title": "Scoring",
@@ -126,10 +165,10 @@ home_template = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Football Fundamentals - Home</title>
+    <title>FFF (Fun Fundamentals of Football) - Home</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Varsity, sans-serif;
             max-width: 800px;
             margin: auto;
             padding: 40px;
@@ -155,9 +194,11 @@ home_template = """
     </style>
 </head>
 <body>
-    <h1>Welcome to Football Fundamentals</h1>
-    <p>Learn the basics of American football, one step at a time — including scoring, rules, positions, and formations.</p>
+    <h1>Welcome to the Amazing World of American Football!</h1>
+    <p>This wonderful web application will allow users to learn about the sport of American football. Whether you are new to the sport, or already familiar with the game, but want to hone your skills; this is the right place for you!
+    With FFF (or Fun Fundamentals of Football) users can learn the basics of American football, at one own's pace — including how scoring works, the rules of the game, the different positions, and even the formations of the different aspects of the game!.</p>
     <a href="{{ url_for('index') }}" class="button">Start Learning</a>
+    <img src="https://www.printablee.com/postpic/2021/05/printable-football-field-diagram_300678.png" alt="Football Field Diagram">
 </body>
 </html>
 """
