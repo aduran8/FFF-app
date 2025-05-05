@@ -10,8 +10,8 @@ lessons = [
     },
     {
         "title": "The Basic Rules of Football",
-        "content": "Each team has four downs (or also referred to as 'plays') to advance the ball 10 yards. If successful, they earn a new set of downs; otherwise, the other team gains possession of the ball, at the location of where the team with the ball failed to gain 10 yards.
-        Once a team has achieved a first down after passing the opponent's 10 yard line, there is no more opportunity to achieve a fresh set of downs. The term '1st & Goal' then comes into play. Followed by '2nd & Goal', and so forth. ",
+        "content": "Each team has four downs (or also referred to as 'plays') to advance the ball 10 yards. If successful, they earn a new set of downs; otherwise, the other team gains possession of the ball, at the location of where the team with the ball failed to gain 10 yards. 
+        -Once a team has achieved a first down after passing the opponent's 10 yard line, there is no more opportunity to achieve a fresh set of downs. The term '1st & Goal' then comes into play. Followed by '2nd & Goal', and so forth. ",
         "video": "https://www.youtube.com/embed/cL4uhaQ58Rk"
     },
     {
