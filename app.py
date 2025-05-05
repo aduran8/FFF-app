@@ -31,7 +31,7 @@ lessons = [
     {
         "title": "Offense - The Different Positions",
         "content": "There are a total of 11 players on the offense side of the ball. The way one can tell that the offense is on the field is because they are the side that have posession of the football, and are trying to score. "
-        "The list of players go as follows: "
+        "The list of players go as follows: \n "
         "   -Quarterback: The 'captain' on the offense, in charge of taking the snap from the center and throwing the football to either wide receivers, tights ends, or running backs."
         "   -Fullback: This player lines up behind the quarterback. Sometimes this player will be given the ball from the quarterback on a run play, but their role is to typically serve as a blocker to the quarterback and/or the halfback."
         "   -Halfback: This player lines up behind the fullback and is responsible for running the ball when the quarterback hands them the ball. There are occasions where the running back will go past the line of scrimmage and try to catch a pass from the quarterback.There are also scenarios where the running back will protect the quarterback from players on defense that try to get to the quarterback"
