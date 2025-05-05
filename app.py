@@ -2,6 +2,11 @@ from flask import Flask, render_template_string, request, url_for
 
 app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return render_template_string(home_template)
+
+
 lessons = [
     {
         "title": "American Football: The Objective of the Game",
@@ -46,6 +51,8 @@ lessons = [
 ]
 
 template = """
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -115,8 +122,48 @@ template = """
 </body>
 </html>
 """
+home_template = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Football Fundamentals - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 40px;
+            background-color: #0b6623;
+            color: white;
+            text-align: center;
+        }
+        h1 { font-size: 36px; margin-bottom: 10px; }
+        p { font-size: 18px; }
+        a.button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+        a.button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Football Fundamentals</h1>
+    <p>Learn the basics of American football, one step at a time — including scoring, rules, positions, and formations.</p>
+    <a href="{{ url_for('index') }}" class="button">Start Learning</a>
+</body>
+</html>
+"""
 
-@app.route("/", methods=["GET", "POST"])
+
+@app.route("/lessons", methods=["GET", "POST"])
 def index():
     index = int(request.form.get("lesson_index", 0))
     index = max(0, min(index, len(lessons) - 1))
