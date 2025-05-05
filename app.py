@@ -4,45 +4,38 @@ app = Flask(__name__)
 
 lessons = [
     {
-        "title": "Objective of the Game",
-        "content": "The objective of American football is to score more points than the opposing team...",
-        "image": "objective.jpg",
+        "title": "The Objective of the Game",
+        "content": "The objective of American football is to score more points than the opposing team by advancing the ball into the opponent's end zone or kicking field goals.",
         "video": "https://www.youtube.com/embed/AkU-_i-NThk"
     },
     {
-        "title": "Basic Rules",
-        "content": "Each team has four downs to advance the ball 10 yards...",
-        "image": "rules.jpg",
+        "title": "The Basic Rules of Football",
+        "content": "Each team has four downs (plays) to advance the ball 10 yards. If successful, they earn a new set of downs; otherwise, the other team gains possession.",
         "video": "https://www.youtube.com/embed/cL4uhaQ58Rk"
     },
     {
         "title": "Player Positions",
-        "content": "Key positions include quarterback, running back, wide receiver...",
-        "image": "positions.jpg",
+        "content": "Players are grouped into offense, defense, and special teams. Key roles include quarterback, running back, wide receiver, linemen, and defensive backs.",
         "video": "https://www.youtube.com/embed/kT5ZRsCd3yE"
     },
     {
         "title": "Scoring",
-        "content": "Touchdown: 6 points. Extra point: 1 or 2. Field goal: 3. Safety: 2.",
-        "image": "scoring.jpg",
+        "content": "Touchdown: 6 points. Extra point (kick): 1 point. Two-point conversion: 2 points. Field goal: 3 points. Safety: 2 points.",
         "video": "https://www.youtube.com/embed/hy8aStpWmGo"
     },
     {
         "title": "Field Layout",
-        "content": "A football field is 100 yards long with two 10-yard end zones.",
-        "image": "field.jpg",
+        "content": "A football field is 100 yards long with two 10-yard end zones. Yard lines and hash marks divide the field for precise positioning.",
         "video": "https://www.youtube.com/embed/pvNq2V_EzH0"
     },
     {
         "title": "Offensive Formations",
-        "content": "Offensive formations like the I-Formation, Shotgun, and Spread are used to space out defenders and create advantages in blocking or passing.",
-        "image": "offense.jpg",
+        "content": "Common offensive formations include the I-Formation, Shotgun, and Spread. These affect play options and spacing.",
         "video": "https://www.youtube.com/embed/oRpZ3nJhgyw"
     },
     {
         "title": "Defensive Formations",
-        "content": "Common defensive formations include the 4-3, 3-4, and Nickel. These vary in how many linemen and linebackers are used to defend the run or pass.",
-        "image": "defense.jpg",
+        "content": "Typical formations like 4-3, 3-4, and Nickel adjust the number of linemen and backs based on pass/run defense strategy.",
         "video": "https://www.youtube.com/embed/Jd3yP_lfV40"
     }
 ]
@@ -53,10 +46,27 @@ template = """
 <head>
     <title>Football Fundamentals</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #0b6623;
+            color: white;
+        }
         h1 { text-align: center; }
-        .card { border: 1px solid #ccc; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
-        .buttons { display: flex; justify-content: space-between; margin-top: 20px; }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #14532d;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
         button {
             padding: 10px 20px;
             border-radius: 6px;
@@ -69,8 +79,13 @@ template = """
             background-color: #ccc;
             cursor: not-allowed;
         }
-        img { max-width: 100%; margin: 20px 0; border-radius: 8px; }
-        iframe { width: 100%; height: 360px; border: none; margin-top: 10px; border-radius: 8px; }
+        iframe {
+            width: 100%;
+            height: 360px;
+            border: none;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -78,9 +93,6 @@ template = """
     <div class="card">
         <h2>{{ lesson['title'] }}</h2>
         <p>{{ lesson['content'] }}</p>
-        {% if lesson['image'] %}
-            <img src="{{ url_for('static', filename=lesson['image']) }}" alt="Lesson image">
-        {% endif %}
         {% if lesson['video'] %}
             <iframe src="{{ lesson['video'] }}" allowfullscreen></iframe>
         {% endif %}
