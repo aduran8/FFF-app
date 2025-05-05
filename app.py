@@ -5,27 +5,28 @@ app = Flask(__name__)
 lessons = [
     {
         "title": "The Objective of the Game",
-        "content": "The objective of American football is to score more points than the opposing team by advancing the ball into the opponent's end zone or kicking field goals into the oppone.",
+        "content": "The objective of American football is to score more points than the opposing team by advancing the ball into the opponent's end zone or kicking field goals into the opponent goal posts (sometimes referred to as 'uprights').",
         "video": "https://www.youtube.com/embed/3t6hM5tRlfA"
     },
     {
         "title": "The Basic Rules of Football",
-        "content": "Each team has four downs (plays) to advance the ball 10 yards. If successful, they earn a new set of downs; otherwise, the other team gains possession.",
+        "content": "Each team has four downs (or also referred to as 'plays') to advance the ball 10 yards. If successful, they earn a new set of downs; otherwise, the other team gains possession of the ball, at the location of where the team with the ball failed to gain 10 yards.
+        Once a team has achieved a first down after passing the opponent's 10 yard line, there is no more opportunity to achieve a fresh set of downs. The term '1st & Goal' then comes into play. Followed by '2nd & Goal', and so forth. ",
         "video": "https://www.youtube.com/embed/cL4uhaQ58Rk"
     },
     {
-        "title": "Player Positions",
-        "content": "Players are grouped into offense, defense, and special teams. Key roles include quarterback, running back, wide receiver, linemen, and defensive backs.",
+        "title": "The Different Positions of Football",
+        "content": "Football players are grouped into either offense, defense, and/or special teams. There are a total of 11 players for all three sections of the game; any more than that results in a penalty to the team with 11 players. The position on offense include quarterback, running back, wide receiver, offensive linemen, and defensive backs.",
         "video": "https://www.youtube.com/embed/kT5ZRsCd3yE"
     },
     {
         "title": "Scoring",
-        "content": "Touchdown: 6 points. Extra point (kick): 1 point. Two-point conversion: 2 points. Field goal: 3 points. Safety: 2 points.",
+        "content": "Scoring a Touchdown awards a team 6 points. Extra point (kick): 1 point. Two-point conversion: 2 points. Field goal: 3 points. Safety: 2 points.",
         "video": "https://www.youtube.com/embed/hy8aStpWmGo"
     },
     {
         "title": "Field Layout",
-        "content": "A football field is 100 yards long with two 10-yard end zones. Yard lines and hash marks divide the field for precise positioning.",
+        "content": "A football field is 100 yards long (120 when you include the two 10-yard end zones). Yard lines and hash marks divide the field for precise positioning.",
         "video": "https://www.youtube.com/embed/pvNq2V_EzH0"
     },
     {
