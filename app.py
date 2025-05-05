@@ -5,20 +5,22 @@ app = Flask(__name__)
 lessons = [
     {
         "title": "American Football: The Objective of the Game",
-        "content": "The objective of American football is to score more points than the opposing team by advancing the ball into the opponent's end zone or kicking field goals into the opponent goal posts (sometimes referred to as 'uprights'). There are other ways one can score points as well, through defensive efforts, and even special teams",
+        "content": "The overall objective of American football is to score more points than the opposing team by advancing the ball into the opponent's end zone or kicking field goals into the opponent goal posts (sometimes referred to as 'uprights'). There are other ways one can score points as well; through defense, or special teams plays that do not include field goals. The sport of American football varies only a little depending on the level that it is played;"
+        "whether it is high school, college, or at the professional level. The concept of it does not change, there are only a few changes as the level of complexity grows.",
     },
     {
-        "title": "The Basics of the Game: Courtesy of the NFL",
+        "title": "A Brief Overview of the Basics of the Game: Courtesy of the NFL",
         "video": "https://www.youtube.com/embed/3t6hM5tRlfA"
     },
     {
         "title": "The Basic Rules of Football",
-        "content": "Each team has four downs (or also referred to as 'plays') to advance the ball 10 yards. If successful, they earn a new set of downs; otherwise, the other team gains possession of the ball, at the location of where the team with the ball failed to gain 10 yards. Once a team has achieved a first down after passing the opponent's 10 yard line, there is no more opportunity to achieve a fresh set of downs. The term '1st & Goal' then comes into play. Followed by '2nd & Goal', and so forth.",
-        "video": "https://www.youtube.com/embed/cL4uhaQ58Rk"
+        "content": "Each team has four downs (or also referred to as 'plays') to advance the ball 10 yards. If successful, they earn a new set of downs; otherwise, the other team gains possession of the ball, at the location of where the team with the ball failed to gain 10 yards."
+        "Once a team has achieved a first down after passing the opponent's 10 yard line, there is no opportunity to achieve a fresh set of downs. The term '1st & Goal' then comes into play. Followed by '2nd & Goal', and so forth. Usually, if a team is facing a '4th & Goal' situation, the team will elect to kick a field goal."
+
     },
     {
         "title": "The Different Positions of Football",
-        "content": "Football players are grouped into either offense, defense, and/or special teams. There are a total of 11 players for all three sections of the game; any more than that results in a penalty to the team with 11 players. The position on offense include quarterback, running back, wide receiver, offensive linemen, and defensive backs.",
+        "content": "Football players are grouped into either offense, defense, and/or special teams. Normally, a player plays either offense or defense, it is uncommon for a specific player to play both sides of the ball.  There are a total of 11 players for all three sections of the game; any more than that results in a penalty to the team with 11 players. The position on offense include quarterback, running back, wide receiver, offensive linemen, and defensive backs.",
         "video": "https://www.youtube.com/embed/kT5ZRsCd3yE"
     },
     {
