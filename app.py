@@ -6,7 +6,7 @@ lessons = [
     {
         "title": "The Objective of the Game",
         "content": "The objective of American football is to score more points than the opposing team by advancing the ball into the opponent's end zone or kicking field goals into the oppone.",
-        "video": "https://www.youtube.com/watch?v=3t6hM5tRlfA&t=17s"
+        "video": "https://www.youtube.com/embed/3t6hM5tRlfA&t=17s"
     },
     {
         "title": "The Basic Rules of Football",
