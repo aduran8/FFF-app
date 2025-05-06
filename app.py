@@ -43,7 +43,7 @@ lessons = [
         "   -Right Guard: This player serves the same purpose as the left guard on the offensive line, the only difference is that they are lined up on the right side of the football."
         "   -Right Tackle: Lineman 5 of 5. Same rules apply to the right tackle and the left tackle, but some see their responsibility to be a little less, because the quarterback can usually see what is happening on the right side of the field when trying to throw the football."
     },
-     {
+    {
         "title": "Defense - The Different Positions... On the other side of the Ball",
         "content": "There are a total of 11 players on the defensive side of the ball. They are on the opposite side of the football. Their goal is to stop the offense from advancing the ball down the field and scoring points. If done well enough, the defense can score points as well, if they manage to take the ball away from the offense. "
         "The list of players go as follows: "
@@ -68,6 +68,11 @@ lessons = [
         "   -Blockers: This is just the category name given to the offensive lineman and the running backs who are preventing the defense from getting to the football."
     },
     {
+        "title": "A Visual Aid in Understanding the Positions In Depth",
+        "content": "The video below gives a better visual of how each position on the field is played."
+        "video": "https://www.youtube.com/embed/KA_EFlU0CWY"
+    },
+    {
         "title": "Scoring: How Points are Determined",
         "content": "Scoring a Touchdown awards a team 6 points. An Extra point (kick): 1 point. Or teams can try for a Two-point conversion after a touchdown: 2 points. A Field goal is worth: 3 points. A Safety awards: 2 points. (This occurs when the offense is backed up in their own endzone, and the ball carrier gets tackled in their own endzone, the opposing team is awarded 2 points and they get the ball punted to them as well). There is also the possibility of scoring touchdowns when the offense does not have the ball. A defensive player can intercept the ball return it, or return a fumbled football as well. A return specialist can return a kickoff or punted ball for a touchdown as well.",
     },
@@ -84,13 +89,7 @@ lessons = [
         "their roots.",
     },
 ]
-glossary_terms = {
-    "Touchdown": "A scoring play worth 6 points when the ball is carried or caught in the end zone.",
-    "Field Goal": "A kick worth 3 points that passes between the goalposts.",
-    "Down": "One of four attempts a team has to gain 10 yards.",
-    "Line of Scrimmage": "The line where the ball is placed before each play begins.",
-    "Safety": "A play where the defense tackles the offense in their own end zone, scoring 2 points."
-}
+
 template = """
 
 
@@ -200,71 +199,6 @@ home_template = """
     <p>This wonderful web application will allow users to learn about the sport of American football. Whether you are new to the sport, or already familiar with the game, but want to hone your skills; this is the right place for you!
     With FFF (or Fun Fundamentals of Football) users can learn the basics of American football, at one own's pace — including how scoring works, the rules of the game, the different positions, and even the formations of the different aspects of the game!.</p>
     <a href="{{ url_for('index') }}" class="button">Begin Learning Football</a>
-</body>
-</html>
-"""
-glossary_template = """
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Glossary</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            background-color: #0b6623;
-            color: white;
-        }
-        h1 { text-align: center; }
-        dt {
-            font-weight: bold;
-            margin-top: 15px;
-            color: #FFD700;
-        }
-        dd {
-            margin-left: 20px;
-            margin-bottom: 10px;
-        }
-        input {
-            padding: 10px;
-            width: 100%;
-            margin: 20px 0;
-            border-radius: 5px;
-            border: none;
-        }
-        a {
-            color: #FFD700;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-    <script>
-        function filterGlossary() {
-            const query = document.getElementById('search').value.toLowerCase();
-            const terms = document.querySelectorAll('dl > dt');
-            terms.forEach(term => {
-                const match = term.textContent.toLowerCase().includes(query);
-                const dd = term.nextElementSibling;
-                term.style.display = match ? '' : 'none';
-                dd.style.display = match ? '' : 'none';
-            });
-        }
-    </script>
-</head>
-<body>
-    <h1>Glossary of Football Terms</h1>
-    <p><a href="/">← Back to Lesson</a></p>
-    <input type="text" id="search" placeholder="Search terms..." onkeyup="filterGlossary()">
-    <dl>
-        {% for term, definition in terms.items() %}
-            <dt id="{{ term }}">{{ term }}</dt>
-            <dd>{{ definition }}</dd>
-        {% endfor %}
-    </dl>
 </body>
 </html>
 """
