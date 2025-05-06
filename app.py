@@ -76,8 +76,16 @@ lessons = [
         "content": "Scoring a Touchdown awards a team 6 points. An Extra point (kick): 1 point. Or teams can try for a Two-point conversion after a touchdown: 2 points. A Field goal is worth: 3 points. A Safety awards: 2 points. (This occurs when the offense is backed up in their own endzone, and the ball carrier gets tackled in their own endzone, the opposing team is awarded 2 points and they get the ball punted to them as well). There is also the possibility of scoring touchdowns when the offense does not have the ball. A defensive player can intercept the ball return it, or return a fumbled football as well. A return specialist can return a kickoff or punted ball for a touchdown as well.",
     },
     {
+        "title": "Scoring: How it Works Continued...",
+        "video": "https://www.youtube.com/embed/0PPYPesF138"
+    },
+    {
         "title": "Field Layout",
         "content": "A football field is 100 yards long (120 when you include the two 10-yard end zones). Yard lines and hash marks divide the field for precise positioning.",
+    },
+    {
+        "title": "An Closer Look at the Field of Play",
+        "video": "https://www.youtube.com/embed/oXBauB8wgUE"
     },
      {
         "title": "The (Technological) Future of American Football - Trending in the Right Direction",
@@ -86,6 +94,10 @@ lessons = [
         "Cameras are just tip of the iceberg, since every year, they integrate more and more technology within the game. At the professional level, quarterbacks have mics in their helmets that help them communicate with their coaches while the QB is on the field. It is because"
         "of technology like that the game has become faster. Now with social media being a big thing, people from all across the globe can find out about games and athletes. With technology growing more and more every single day, who knows when the stopping point for the sport of American football will be. One thing is for certain though; the concepts and rules of the game will always stay true to"
         "their roots.",
+    },
+    {
+        "title": "Small Look Into Technology in the Sport of American Football",
+        "video": "https://www.youtube.com/embed/VNl1H83CQ20"
     },
 ]
 
