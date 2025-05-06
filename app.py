@@ -69,7 +69,6 @@ lessons = [
     },
     {
         "title": "A Visual Aid in Understanding the Positions In Depth",
-        "content": "The video below gives a better visual of how each position on the field is played."
         "video": "https://www.youtube.com/embed/KA_EFlU0CWY"
     },
     {
