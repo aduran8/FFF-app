@@ -58,35 +58,31 @@ lessons = [
         "title": "Special Teams - The Not So Man ",
         "content": "There are a total of 11 players from each team on the field. When it comes to special teams, there are a mix of players who play on different sides of the ball. There are only a few changes from offense and defense when it comes to special teams."
         "The list of players go as follows: "
-        "   -Long Snapper: "
-        "   -Punter (only for Punts): "
-        "   -Holder (for Field Goal attempts): "
-        "   -Kicker: "
-        "   -Return Specialist: "
-        "   -Gunner: The role of this player is to try and get to the return speciist as fast as they can in order to prevent the specialist from catching the ball and returning it. Once the ball is snapped, they just have to run as fast as they can. So, these players have to be very fast and smart about how they try to tackle the specialist when running at full speed."
+        "   -Long Snapper: The player in this position kind of does what the center does, the only difference is that they are looking back, and snapping the ball at a longer distance. "
+        "   -Punter (only for Punts): The punter is similar to the kicker, but the job of the punter is to catch the ball himself and kick the ball in a way that prevents the return specialist from scoring the ball, or having a big return. Punters have to calculate how far and how high they want to punt the ball when kicking it. Whereas kickers have to kick as hard as they can, in a specific direction. "
+        "   -Holder (for Field Goal attempts): The player in this position is in charge of letting the long snapper know when to snap the ball. This player then proceeds to catch the ball, and position the ball correctly, so th kicker may proceed to kick a field goal. A holder not need for kickoff or for punts. This player is only needed for field goal attempts. "
+        "   -Kicker: The kicker is probably the most well-known special teams player. This player is in charge of kicking the football within the goalposts. The acceptable range for a kicker to kick a field goal is usually between 10 to 45 yards. Anything more than that can still fall within their criteria, but it is usually a little harder for them to accomplish that feat. When kicking the ball off, it only matters that the kicker try to kick it as far as possible, so the return specialist doesn't have a chance to return the football. If a kicker kicks it out further than the end zone, then it is considered a touchback, and the returner does not get a chance to return the ball. "
+        "   -Return Specialist: The person in this role has to catch the ball (whether it is being punted or kicked off to them) and try to run it to score a touchdown. Typically, the player witin this role has to be fast, but it is not really a strict requirement. Sometimes when the ball is punted to the return specialist, they do not get a chance to return it because a gunner has already reached them. In which case, the return specialist waves their hand to signal a 'fair catch'; meaning that nobody can tackle them, and the spot of the ball stands where the specialist caught it.   "
+        "   -Gunner: The role of this player is to try and get to the return specialist as fast as they can in order to prevent the specialist from catching the ball and returning it. Once the ball is snapped, they just have to run as fast as they can. So, these players have to be very fast and smart about how they try to tackle the specialist when running at full speed."
         "   -Jammer: A player in this positon has the role of trying to prevent the guuner from getting to the player receiving the ball from a punt or a kick return. If they do their job well, then it allows the return specialist to have a chance of scoring upon catching the ball. These players have to be just as fast as the "
         "   -Blockers: This is just the category name given to the offensive lineman and the running backs who are preventing the defense from getting to the football."
     },
     {
-        "title": "Scoring",
-        "content": "Scoring a Touchdown awards a team 6 points. Extra point (kick): 1 point. Two-point conversion: 2 points. Field goal: 3 points. Safety: 2 points.",
-        "video": "https://www.youtube.com/embed/hy8aStpWmGo"
+        "title": "Scoring: How Points are Determined",
+        "content": "Scoring a Touchdown awards a team 6 points. An Extra point (kick): 1 point. Or teams can try for a Two-point conversion after a touchdown: 2 points. A Field goal is worth: 3 points. A Safety awards: 2 points. (This occurs when the offense is backed up in their own endzone, and the ball carrier gets tackled in their own endzone, the opposing team is awarded 2 points and they get the ball punted to them as well). There is also the possibility of scoring touchdowns when the offense does not have the ball. A defensive player can intercept the ball return it, or return a fumbled football as well. A return specialist can return a kickoff or punted ball for a touchdown as well.",
     },
     {
         "title": "Field Layout",
         "content": "A football field is 100 yards long (120 when you include the two 10-yard end zones). Yard lines and hash marks divide the field for precise positioning.",
-        "video": "https://www.youtube.com/embed/pvNq2V_EzH0"
     },
-    {
-        "title": "Offensive Formations",
-        "content": "Common offensive formations include the I-Formation, Shotgun, and Spread. These affect play options and spacing.",
-        "video": "https://www.youtube.com/embed/oRpZ3nJhgyw"
+     {
+        "title": "The (Technological) Future of American Football - Trending in the Right Direction",
+        "content": "As time progresses, so does the sport of American football. The game has gotten faster and players are adpating to it as well. A lot of the credit has to be given to fact that technology has "
+        "been implemented to the game; mostly at the collegiate level and professsional level. There are now cameras available everywhere on the field; there are even cameras hovering over the field and cameras serving as pylons in the endzone as well."
+        "Cameras are just tip of the iceberg, since every year, they integrate more and more technology within the game. At the professional level, quarterbacks have mics in their helmets that help them communicate with their coaches while the QB is on the field. It is because"
+        "of technology like that the game has become faster. Now with social media being a big thing, people from all across the globe can find out about games and athletes. With technology growing more and more every single day, who knows when the stopping point for the sport of American football will be. One thing is for certain though; the concepts and rules of the game will always stay true to"
+        "their roots.",
     },
-    {
-        "title": "Defensive Formations",
-        "content": "Typical formations like 4-3, 3-4, and Nickel adjust the number of linemen and backs based on pass/run defense strategy.",
-        "video": "https://www.youtube.com/embed/Jd3yP_lfV40"
-    }
 ]
 
 template = """
